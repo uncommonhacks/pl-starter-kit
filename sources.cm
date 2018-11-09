@@ -1,0 +1,15 @@
+Group
+  structure AST
+  structure Scan
+  structure Parse
+  structure TypeCheck
+  structure Eval
+  structure Compile
+is
+  $/basis.cm
+  ast.sml
+  scan.sml
+  parse.sml
+  typecheck.sml
+  eval.sml
+  compile.sml
